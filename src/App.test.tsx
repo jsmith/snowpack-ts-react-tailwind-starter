@@ -4,9 +4,9 @@ import { expect } from 'chai';
 import App from './App';
 
 describe('<App>', () => {
-  it('renders learn react link', () => {
+  it('renders renders', () => {
     const { getByText } = render(<App />);
-    const linkElement = getByText(/learn react/i);
+    const linkElement = getByText(/template/i);
     expect(document.body.contains(linkElement));
   });
 });
